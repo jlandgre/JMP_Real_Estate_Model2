@@ -1,0 +1,577 @@
+﻿/* JMP 16.1.0   01 */
+ListBox(vertical,near,sub(
+OwnerBox(helpKey("Rowstate Legend"),sub(
+PictureBox(sub(
+TableBox(n markers(4),markers(rs(0,FilledCircle,-13912408),rs(0,FilledCircle,-4042310),rs(0,FilledCircle,-4354269),rs(0,FilledCircle,-13400361)),allowStyles(false),sub(
+StringColBox(n(4),title("Town"),flags(16),
+ strings("Columbia","IH","Madeira","Syc"),markers(rs(0,FilledCircle,-13912408),rs(0,FilledCircle,-4042310),rs(0,FilledCircle,-4354269),rs(0,FilledCircle,-13400361)),titleWrap(true),User Resizable({1, 0}),))))))),
+ListBox(vertical,near,sub(
+OwnerBox())),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Variability Gauge"),rerun(Variability Chart(Y(:Price_Sold), X(:Baths, :Town), Show Range Bars(0), Show Cell Means(0), Std Dev Chart(0))),Context({Table("Real Estate"), Y("Price_Sold")}),default font id(2),helpKey("Variability"),sub(
+OutlineBox(
+open(1),title("Variability Chart for Price_Sold"),default font id(2),helpKey("Variability"),sub(
+ScaleBox(id(3),charid("0"),length(72),baselength(72),comp(1),length(53),baselength(53),comp(2),length(19),baselength(19),sub(
+ScaleBox(id(4),charid("0"),length(38),baselength(38),comp(1),length(33),baselength(33),sub(
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+PictureBox(sub(
+BorderBox(top(12),left(5),bottom(12),right(14),sides(16384),options(0),xmin(0),ymin(0),color(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(0),scaleWidth(21),widthMajor(1),
+nbin(21),nminor(0),timeCode(0),ndec(0),FieldWidth(9),
+MinInitInt(0),MaxInitInt(21),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(prohibitLogScale,showMajorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(2),labelRows(labelRowTickList(default font id(7),axisTick(type(1),style(2),label("Madeira"),value(0),width(1),),axisTick(type(1),style(2),label("Madeira"),value(1),width(1),),axisTick(type(1),style(2),label("IH"),value(2),width(1),),axisTick(type(1),style(2),label("Madeira"),value(3),width(1),),axisTick(type(1),style(2),label("Syc"),value(4),width(1),),axisTick(type(1),style(2),label("Madeira"),value(5),width(1),),axisTick(type(1),style(2),label("Columbia"),value(6),width(1),),axisTick(type(1),style(2),label("IH"),value(7),width(1),),axisTick(type(1),style(2),label("Madeira"),value(8),width(1),),axisTick(type(1),style(2),label("Syc"),value(9),width(1),),axisTick(type(1),style(2),label("Madeira"),value(10),width(1),),axisTick(type(1),style(2),label("Columbia"),value(11),width(1),),axisTick(type(1),style(2),label("IH"),value(12),width(1),),axisTick(type(1),style(2),label("Madeira"),value(13),width(1),),axisTick(type(1),style(2),label("Syc"),value(14),width(1),),axisTick(type(1),style(2),label("Madeira"),value(15),width(1),),axisTick(type(1),style(2),label("IH"),value(16),width(1),),axisTick(type(1),style(2),label("Madeira"),value(17),width(1),),axisTick(type(1),style(2),label("Syc"),value(18),width(1),),axisTick(type(1),style(2),label("IH"),value(19),width(1),),axisTick(type(1),style(2),label("IH"),value(20),width(1),),),labelRowTickList(default font id(7),axisTick(type(1),style(2),label("1"),value(0),width(1),),axisTick(type(1),style(2),label("1.5"),value(1),width(1),),axisTick(type(1),style(2),label("2"),value(2),width(3),),axisTick(type(1),style(2),label("2.5"),value(5),width(1),),axisTick(type(1),style(2),label("3"),value(6),width(4),),axisTick(type(1),style(2),label("3.5"),value(10),width(1),),axisTick(type(1),style(2),label("4"),value(11),width(4),),axisTick(type(1),style(2),label("4.5"),value(15),width(1),),axisTick(type(1),style(2),label("5"),value(16),width(3),),axisTick(type(1),style(2),label("6"),value(19),width(1),),axisTick(type(1),style(2),label("8"),value(20),width(1),),),),labelRows12(LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(-1),Label Orientation("Automatic"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Lower Frame(1),Major Grid Line Color(-14145495),Minimum Depth(32),Minimum Font Size(7),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Tick Mark Style("Long Divider"),Truncate format to interval(1),Wrap Lines(0),default font id(7),axisTick(type(2),label("Madeira"),value(0),width(1),),axisTick(type(2),label("Madeira"),value(1),width(1),),axisTick(type(2),label("IH"),value(2),width(1),),axisTick(type(2),label("Madeira"),value(3),width(1),),axisTick(type(2),label("Syc"),value(4),width(1),),axisTick(type(2),label("Madeira"),value(5),width(1),),axisTick(type(2),label("Columbia"),value(6),width(1),),axisTick(type(2),label("IH"),value(7),width(1),),axisTick(type(2),label("Madeira"),value(8),width(1),),axisTick(type(2),label("Syc"),value(9),width(1),),axisTick(type(2),label("Madeira"),value(10),width(1),),axisTick(type(2),label("Columbia"),value(11),width(1),),axisTick(type(2),label("IH"),value(12),width(1),),axisTick(type(2),label("Madeira"),value(13),width(1),),axisTick(type(2),label("Syc"),value(14),width(1),),axisTick(type(2),label("Madeira"),value(15),width(1),),axisTick(type(2),label("IH"),value(16),width(1),),axisTick(type(2),label("Madeira"),value(17),width(1),),axisTick(type(2),label("Syc"),value(18),width(1),),axisTick(type(2),label("IH"),value(19),width(1),),axisTick(type(2),label("IH"),value(20),width(1),),),LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color(2147483647),Line Width(1),Lower Frame(1),Major Grid Line Color(-14145495),Minimum Depth(32),Minimum Font Size(8),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Tick Mark Style("Long Divider"),Truncate format to interval(1),Wrap Lines(0),default font id(7),axisTick(type(2),label("1"),value(0),width(1),),axisTick(type(2),label("1.5"),value(1),width(1),),axisTick(type(2),label("2"),value(2),width(3),),axisTick(type(2),label("2.5"),value(5),width(1),),axisTick(type(2),label("3"),value(6),width(4),),axisTick(type(2),label("3.5"),value(10),width(1),),axisTick(type(2),label("4"),value(11),width(4),),axisTick(type(2),label("4.5"),value(15),width(1),),axisTick(type(2),label("5"),value(16),width(3),),axisTick(type(2),label("6"),value(19),width(1),),axisTick(type(2),label("8"),value(20),width(1),),),),),charid("0"),length(420),baselength(420),sub(
+ScaleBox(id(3),charid("0"),length(72),baselength(72),comp(1),length(53),baselength(53),comp(2),length(19),baselength(19),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(2500),widthMajor(500),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(0),MaxInitInt(2500),LinearInit,MajorInit(500),MinorInit(1),NObsInit(72),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),ref lines(n(1),value(0),style(1),color(81),),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("0"),length(240),baselength(240),sub(
+ListBox(horizontal,near,sub(
+ListBox(horizontal,near,sub(
+CenterBox(vert,boxcentering(0,1),ystretch("Fill"),sub(
+TextEditBox("Price_Sold",default font id(9),justification(1),vjustification(1),left,minSize(14,0),maxSize(14,240),BaseSize(0,0),sizeID(0,2),))),
+AxisBox(side(R),size(38,240),locked(false),scales(4,2,0,2),))),
+LineUpBox(nCol(2),spacing(0),hspacing(0),vspacing(0),sub(
+FrameBox(size(420,240),border(12303),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),scales(1,2,1,2),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(n(72),nv(1),MarkerItem(
+x(0.55,3.55,1.55,5.55,5.55,3.55,5.55,5.55,5.55,8.55
+,5.55,10.55,10.55,8.55,15.55,15.55,20.55,19.55,18.55,12.55
+,19.55,19.55,7.55,12.55,12.55,12.55,7.55,7.55,16.55,16.55
+,17.55,12.55,12.55,17.55,13.55,14.55,12.55,8.55,14.55,8.55
+,14.55,7.55,13.55,7.55,2.55,8.55,13.55,8.55,3.55,8.55
+,3.55,3.55,6.55,6.55,8.55,8.55,3.55,4.55,6.55,8.55
+,3.55,11.55,8.55,4.55,0.55,3.55,0.55,0.55,9.55,0.55
+,0.55,0.55),
+y(160,267,299.5,325,330,355,360,372,379.9,440
+,516,620,687,728,803,899.9,2400,1999,1750,1490
+,1482,1430,1230,1200,1200,1199,1135,1125.8,1080,935
+,899.9,885,850,803.3,783.5,772.5,769.2,745,682.5,595
+,565,560,528.6,525,525,495,477.5,469,459,420
+,410,397,375,365,360,360,355,347.5,340,330
+,302,290,288,285,280,261,258.9,214,200,199
+,190,160),),states(rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-13400361),rs(0,Dot,-4042310)
+,rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4354269)
+,rs(0,Dot,-13400361),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13912408),rs(0,Dot,-13912408),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-13912408),rs(0,Dot,-4354269)
+,rs(0,Dot,-4354269),rs(0,Dot,-13912408),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269)),),CustomStreamSeg(description("Separators"),properties(line(color(1)),),settable(46),script({V Line(1, 0, 2500), V Line(2, 0, 2500), V Line(5, 0, 2500), V Line(6, 0, 2500), V Line(10, 0, 2500), V Line(11, 0, 2500), V Line(15, 0, 2500), V Line(16, 0, 2500), V Line(19, 0, 2500), V Line(20, 0, 2500)}),)),helpKey("Variability Chart"),),
+ListBox(vertical,near,),
+AxisBox(side(T),size(420,72),locked(false),scales(1,3,1,0),Vertical Alignment("Top"),),
+ListBox(vertical,near,Vertical Alignment("Top"),sub(
+MouseBox(DefaultCursor("Arrow"),Margin({Left(5), Top(0), Right(0), Bottom(0)}),sub(
+TextBox("Town",minSize(32,-1),maxSize(32,53),BaseSize(0,0),sizeID(0,3),compID(0,1),))),
+MouseBox(DefaultCursor("Arrow"),Margin({Left(5), Top(0), Right(0), Bottom(0)}),sub(
+TextBox("Baths",minSize(35,-1),maxSize(35,19),BaseSize(0,0),sizeID(0,3),compID(0,2),))))))))))))))))))))),
+ListBox(horizontal,near,))))))))))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Variability Gauge"),rerun(Variability Chart(Y(:Price_Sold), X(:Baths, :Town, :Renovated Ext, :Street Type), Show Range Bars(0), Show Cell Means(0), Std Dev Chart(0))),Context({Table("Real Estate"), Y("Price_Sold")}),default font id(2),helpKey("Variability"),sub(
+OutlineBox(
+open(1),title("Variability Chart for Price_Sold"),default font id(2),helpKey("Variability"),sub(
+ScaleBox(id(3),charid("0"),length(158),baselength(158),comp(1),length(35),baselength(35),comp(2),length(51),baselength(51),comp(3),length(53),baselength(53),comp(4),length(19),baselength(19),sub(
+ScaleBox(id(4),charid("0"),length(38),baselength(38),comp(1),length(33),baselength(33),sub(
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+PictureBox(sub(
+BorderBox(top(12),left(5),bottom(12),right(14),sides(16384),options(0),xmin(0),ymin(0),color(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(0),scaleWidth(35),widthMajor(1),
+nbin(35),nminor(0),timeCode(0),ndec(0),FieldWidth(9),
+MinInitInt(0),MaxInitInt(35),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(prohibitLogScale,showMajorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(4),labelRows(labelRowTickList(default font id(7),axisTick(type(1),style(2),label("Main"),value(0),width(1),),axisTick(type(1),style(2),label("Side"),value(1),width(1),),axisTick(type(1),style(2),label("Side"),value(2),width(1),),axisTick(type(1),style(2),label("Main"),value(3),width(1),),axisTick(type(1),style(2),label("Main"),value(4),width(1),),axisTick(type(1),style(2),label("Side"),value(5),width(1),),axisTick(type(1),style(2),label("Main"),value(6),width(1),),axisTick(type(1),style(2),label("Side"),value(7),width(1),),axisTick(type(1),style(2),label("Main"),value(8),width(1),),axisTick(type(1),style(2),label("Side"),value(9),width(1),),axisTick(type(1),style(2),label("Side"),value(10),width(1),),axisTick(type(1),style(2),label("Main"),value(11),width(1),),axisTick(type(1),style(2),label("Side"),value(12),width(1),),axisTick(type(1),style(2),label("Side"),value(13),width(1),),axisTick(type(1),style(2),label("Main"),value(14),width(1),),axisTick(type(1),style(2),label("Side"),value(15),width(1),),axisTick(type(1),style(2),label("Main"),value(16),width(1),),axisTick(type(1),style(2),label("Side"),value(17),width(1),),axisTick(type(1),style(2),label("Side"),value(18),width(1),),axisTick(type(1),style(2),label("Main"),value(19),width(1),),axisTick(type(1),style(2),label("Side"),value(20),width(1),),axisTick(type(1),style(2),label("Side"),value(21),width(1),),axisTick(type(1),style(2),label("Side"),value(22),width(1),),axisTick(type(1),style(2),label("Main"),value(23),width(1),),axisTick(type(1),style(2),label("Side"),value(24),width(1),),axisTick(type(1),style(2),label("Side"),value(25),width(1),),axisTick(type(1),style(2),label("Main"),value(26),width(1),),axisTick(type(1),style(2),label("Side"),value(27),width(1),),axisTick(type(1),style(2),label("Side"),value(28),width(1),),axisTick(type(1),style(2),label("Main"),value(29),width(1),),axisTick(type(1),style(2),label("Side"),value(30),width(1),),axisTick(type(1),style(2),label("Side"),value(31),width(1),),axisTick(type(1),style(2),label("Side"),value(32),width(1),),axisTick(type(1),style(2),label("Side"),value(33),width(1),),axisTick(type(1),style(2),label("Main"),value(34),width(1),),),labelRowTickList(default font id(7),axisTick(type(1),style(2),label("Not_New"),value(0),width(2),),axisTick(type(1),style(2),label("Not_New"),value(2),width(1),),axisTick(type(1),style(2),label("Not_New"),value(3),width(1),),axisTick(type(1),style(2),label("Not_New"),value(4),width(2),),axisTick(type(1),style(2),label("Not_New"),value(6),width(2),),axisTick(type(1),style(2),label("Not_New"),value(8),width(2),),axisTick(type(1),style(2),label("Not_New"),value(10),width(1),),axisTick(type(1),style(2),label("Not_New"),value(11),width(2),),axisTick(type(1),style(2),label("Ext_Ren"),value(13),width(1),),axisTick(type(1),style(2),label("Not_New"),value(14),width(2),),axisTick(type(1),style(2),label("Not_New"),value(16),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(17),width(1),),axisTick(type(1),style(2),label("Not_New"),value(18),width(1),),axisTick(type(1),style(2),label("Not_New"),value(19),width(2),),axisTick(type(1),style(2),label("Ext_Ren"),value(21),width(1),),axisTick(type(1),style(2),label("Not_New"),value(22),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(23),width(2),),axisTick(type(1),style(2),label("Not_New"),value(25),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(26),width(2),),axisTick(type(1),style(2),label("Not_New"),value(28),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(29),width(2),),axisTick(type(1),style(2),label("Not_New"),value(31),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(32),width(1),),axisTick(type(1),style(2),label("Not_New"),value(33),width(1),),axisTick(type(1),style(2),label("Not_New"),value(34),width(1),),),labelRowTickList(default font id(7),axisTick(type(1),style(2),label("Madeira"),value(0),width(2),),axisTick(type(1),style(2),label("Madeira"),value(2),width(1),),axisTick(type(1),style(2),label("IH"),value(3),width(1),),axisTick(type(1),style(2),label("Madeira"),value(4),width(2),),axisTick(type(1),style(2),label("Syc"),value(6),width(2),),axisTick(type(1),style(2),label("Madeira"),value(8),width(2),),axisTick(type(1),style(2),label("Columbia"),value(10),width(1),),axisTick(type(1),style(2),label("IH"),value(11),width(2),),axisTick(type(1),style(2),label("Madeira"),value(13),width(3),),axisTick(type(1),style(2),label("Syc"),value(16),width(1),),axisTick(type(1),style(2),label("Madeira"),value(17),width(1),),axisTick(type(1),style(2),label("Columbia"),value(18),width(1),),axisTick(type(1),style(2),label("IH"),value(19),width(2),),axisTick(type(1),style(2),label("Madeira"),value(21),width(2),),axisTick(type(1),style(2),label("Syc"),value(23),width(3),),axisTick(type(1),style(2),label("Madeira"),value(26),width(2),),axisTick(type(1),style(2),label("IH"),value(28),width(1),),axisTick(type(1),style(2),label("Madeira"),value(29),width(2),),axisTick(type(1),style(2),label("Syc"),value(31),width(1),),axisTick(type(1),style(2),label("IH"),value(32),width(2),),axisTick(type(1),style(2),label("IH"),value(34),width(1),),),labelRowTickList(default font id(7),axisTick(type(1),style(2),label("1"),value(0),width(2),),axisTick(type(1),style(2),label("1.5"),value(2),width(1),),axisTick(type(1),style(2),label("2"),value(3),width(5),),axisTick(type(1),style(2),label("2.5"),value(8),width(2),),axisTick(type(1),style(2),label("3"),value(10),width(7),),axisTick(type(1),style(2),label("3.5"),value(17),width(1),),axisTick(type(1),style(2),label("4"),value(18),width(8),),axisTick(type(1),style(2),label("4.5"),value(26),width(2),),axisTick(type(1),style(2),label("5"),value(28),width(4),),axisTick(type(1),style(2),label("6"),value(32),width(2),),axisTick(type(1),style(2),label("8"),value(34),width(1),),),),labelRows12(LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(-1),Label Orientation("Automatic"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Lower Frame(1),Major Grid Line Color(-14145495),Minimum Depth(32),Minimum Font Size(7),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Tick Mark Style("Long Divider"),Truncate format to interval(1),Wrap Lines(0),default font id(7),axisTick(type(2),label("Main"),value(0),width(1),),axisTick(type(2),label("Side"),value(1),width(1),),axisTick(type(2),label("Side"),value(2),width(1),),axisTick(type(2),label("Main"),value(3),width(1),),axisTick(type(2),label("Main"),value(4),width(1),),axisTick(type(2),label("Side"),value(5),width(1),),axisTick(type(2),label("Main"),value(6),width(1),),axisTick(type(2),label("Side"),value(7),width(1),),axisTick(type(2),label("Main"),value(8),width(1),),axisTick(type(2),label("Side"),value(9),width(1),),axisTick(type(2),label("Side"),value(10),width(1),),axisTick(type(2),label("Main"),value(11),width(1),),axisTick(type(2),label("Side"),value(12),width(1),),axisTick(type(2),label("Side"),value(13),width(1),),axisTick(type(2),label("Main"),value(14),width(1),),axisTick(type(2),label("Side"),value(15),width(1),),axisTick(type(2),label("Main"),value(16),width(1),),axisTick(type(2),label("Side"),value(17),width(1),),axisTick(type(2),label("Side"),value(18),width(1),),axisTick(type(2),label("Main"),value(19),width(1),),axisTick(type(2),label("Side"),value(20),width(1),),axisTick(type(2),label("Side"),value(21),width(1),),axisTick(type(2),label("Side"),value(22),width(1),),axisTick(type(2),label("Main"),value(23),width(1),),axisTick(type(2),label("Side"),value(24),width(1),),axisTick(type(2),label("Side"),value(25),width(1),),axisTick(type(2),label("Main"),value(26),width(1),),axisTick(type(2),label("Side"),value(27),width(1),),axisTick(type(2),label("Side"),value(28),width(1),),axisTick(type(2),label("Main"),value(29),width(1),),axisTick(type(2),label("Side"),value(30),width(1),),axisTick(type(2),label("Side"),value(31),width(1),),axisTick(type(2),label("Side"),value(32),width(1),),axisTick(type(2),label("Side"),value(33),width(1),),axisTick(type(2),label("Main"),value(34),width(1),),),LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color(2147483647),Line Width(1),Lower Frame(1),Major Grid Line Color(-14145495),Minimum Depth(32),Minimum Font Size(8),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Tick Mark Style("Long Divider"),Truncate format to interval(1),Wrap Lines(0),default font id(7),axisTick(type(2),label("Not_New"),value(0),width(2),),axisTick(type(2),label("Not_New"),value(2),width(1),),axisTick(type(2),label("Not_New"),value(3),width(1),),axisTick(type(2),label("Not_New"),value(4),width(2),),axisTick(type(2),label("Not_New"),value(6),width(2),),axisTick(type(2),label("Not_New"),value(8),width(2),),axisTick(type(2),label("Not_New"),value(10),width(1),),axisTick(type(2),label("Not_New"),value(11),width(2),),axisTick(type(2),label("Ext_Ren"),value(13),width(1),),axisTick(type(2),label("Not_New"),value(14),width(2),),axisTick(type(2),label("Not_New"),value(16),width(1),),axisTick(type(2),label("Ext_Ren"),value(17),width(1),),axisTick(type(2),label("Not_New"),value(18),width(1),),axisTick(type(2),label("Not_New"),value(19),width(2),),axisTick(type(2),label("Ext_Ren"),value(21),width(1),),axisTick(type(2),label("Not_New"),value(22),width(1),),axisTick(type(2),label("Ext_Ren"),value(23),width(2),),axisTick(type(2),label("Not_New"),value(25),width(1),),axisTick(type(2),label("Ext_Ren"),value(26),width(2),),axisTick(type(2),label("Not_New"),value(28),width(1),),axisTick(type(2),label("Ext_Ren"),value(29),width(2),),axisTick(type(2),label("Not_New"),value(31),width(1),),axisTick(type(2),label("Ext_Ren"),value(32),width(1),),axisTick(type(2),label("Not_New"),value(33),width(1),),axisTick(type(2),label("Not_New"),value(34),width(1),),),LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color(2147483647),Line Width(1),Lower Frame(1),Major Grid Line Color(-14145495),Minimum Depth(32),Minimum Font Size(8),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Tick Mark Style("Long Divider"),Truncate format to interval(1),Wrap Lines(0),default font id(7),axisTick(type(2),label("Madeira"),value(0),width(2),),axisTick(type(2),label("Madeira"),value(2),width(1),),axisTick(type(2),label("IH"),value(3),width(1),),axisTick(type(2),label("Madeira"),value(4),width(2),),axisTick(type(2),label("Syc"),value(6),width(2),),axisTick(type(2),label("Madeira"),value(8),width(2),),axisTick(type(2),label("Columbia"),value(10),width(1),),axisTick(type(2),label("IH"),value(11),width(2),),axisTick(type(2),label("Madeira"),value(13),width(3),),axisTick(type(2),label("Syc"),value(16),width(1),),axisTick(type(2),label("Madeira"),value(17),width(1),),axisTick(type(2),label("Columbia"),value(18),width(1),),axisTick(type(2),label("IH"),value(19),width(2),),axisTick(type(2),label("Madeira"),value(21),width(2),),axisTick(type(2),label("Syc"),value(23),width(3),),axisTick(type(2),label("Madeira"),value(26),width(2),),axisTick(type(2),label("IH"),value(28),width(1),),axisTick(type(2),label("Madeira"),value(29),width(2),),axisTick(type(2),label("Syc"),value(31),width(1),),axisTick(type(2),label("IH"),value(32),width(2),),axisTick(type(2),label("IH"),value(34),width(1),),),LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color(2147483647),Line Width(1),Lower Frame(1),Major Grid Line Color(-14145495),Minimum Depth(32),Minimum Font Size(8),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Tick Mark Style("Long Divider"),Truncate format to interval(1),Wrap Lines(0),default font id(7),axisTick(type(2),label("1"),value(0),width(2),),axisTick(type(2),label("1.5"),value(2),width(1),),axisTick(type(2),label("2"),value(3),width(5),),axisTick(type(2),label("2.5"),value(8),width(2),),axisTick(type(2),label("3"),value(10),width(7),),axisTick(type(2),label("3.5"),value(17),width(1),),axisTick(type(2),label("4"),value(18),width(8),),axisTick(type(2),label("4.5"),value(26),width(2),),axisTick(type(2),label("5"),value(28),width(4),),axisTick(type(2),label("6"),value(32),width(2),),axisTick(type(2),label("8"),value(34),width(1),),),),),charid("0"),length(700),baselength(700),sub(
+ScaleBox(id(3),charid("0"),length(158),baselength(158),comp(1),length(35),baselength(35),comp(2),length(51),baselength(51),comp(3),length(53),baselength(53),comp(4),length(19),baselength(19),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(2500),widthMajor(500),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(0),MaxInitInt(2500),LinearInit,MajorInit(500),MinorInit(1),NObsInit(72),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),ref lines(n(1),value(0),style(1),color(81),),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("0"),length(240),baselength(240),sub(
+ListBox(horizontal,near,sub(
+ListBox(horizontal,near,sub(
+CenterBox(vert,boxcentering(0,1),ystretch("Fill"),sub(
+TextEditBox("Price_Sold",default font id(9),justification(1),vjustification(1),left,minSize(14,0),maxSize(14,240),BaseSize(0,0),sizeID(0,2),))),
+AxisBox(side(R),size(38,240),locked(false),scales(4,2,0,2),))),
+LineUpBox(nCol(2),spacing(0),hspacing(0),vspacing(0),sub(
+FrameBox(size(700,240),border(12303),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),scales(1,2,1,2),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(n(72),nv(1),MarkerItem(
+x(1.55,5.55,2.55,8.55,9.55,5.55,9.55,9.55,9.55,15.55
+,9.55,17.55,17.55,13.55,27.55,26.55,34.55,32.55,31.55,20.55
+,33.55,33.55,11.55,20.55,20.55,19.55,12.55,12.55,28.55,28.55
+,29.55,20.55,19.55,30.55,21.55,23.55,19.55,15.55,24.55,15.55
+,25.55,12.55,22.55,11.55,3.55,13.55,22.55,14.55,4.55,15.55
+,5.55,4.55,10.55,10.55,15.55,15.55,5.55,7.55,10.55,15.55
+,4.55,18.55,15.55,6.55,1.55,5.55,1.55,1.55,16.55,0.55
+,1.55,0.55),
+y(160,267,299.5,325,330,355,360,372,379.9,440
+,516,620,687,728,803,899.9,2400,1999,1750,1490
+,1482,1430,1230,1200,1200,1199,1135,1125.8,1080,935
+,899.9,885,850,803.3,783.5,772.5,769.2,745,682.5,595
+,565,560,528.6,525,525,495,477.5,469,459,420
+,410,397,375,365,360,360,355,347.5,340,330
+,302,290,288,285,280,261,258.9,214,200,199
+,190,160),),states(rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-13400361),rs(0,Dot,-4042310)
+,rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4354269)
+,rs(0,Dot,-13400361),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13912408),rs(0,Dot,-13912408),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-13912408),rs(0,Dot,-4354269)
+,rs(0,Dot,-4354269),rs(0,Dot,-13912408),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269)),),CustomStreamSeg(description("Separators"),properties(line(color(1)),),settable(46),script({V Line(2, 0, 2500), V Line(3, 0, 2500), V Line(8, 0, 2500), V Line(10, 0, 2500), V Line(17, 0, 2500), V Line(18, 0, 2500), V Line(26, 0, 2500), V Line(28, 0, 2500), V Line(32, 0, 2500), V Line(34, 0, 2500), V Line(2, 0, 2500), V Line(3, 0, 2500), V Line(4, 0, 2500), V Line(6, 0, 2500), V Line(8, 0, 2500), V Line(10, 0, 2500), V Line(11, 0, 2500), V Line(13, 0, 2500), V Line(16, 0, 2500), V Line(17, 0, 2500), V Line(18, 0, 2500), V Line(19, 0, 2500), V Line(21, 0, 2500), V Line(23, 0, 2500), V Line(26, 0, 2500), V Line(28, 0, 2500), V Line(29, 0, 2500), V Line(31, 0, 2500), V Line(32, 0, 2500), V Line(34, 0, 2500), V Line(2, 0, 2500), V Line(3, 0, 2500), V Line(4, 0, 2500), V Line(6, 0, 2500), V Line(8, 0, 2500), V Line(10, 0, 2500), V Line(11, 0, 2500), V Line(13, 0, 2500), V Line(14, 0, 2500), V Line(16, 0, 2500), V Line(17, 0, 2500), V Line(18, 0, 2500), V Line(19, 0, 2500), V Line(21, 0, 2500), V Line(22, 0, 2500), V Line(23, 0, 2500), V Line(25, 0, 2500), V Line(26, 0, 2500), V Line(28, 0, 2500), V Line(29, 0, 2500), V Line(31, 0, 2500), V Line(32, 0, 2500), V Line(33, 0, 2500), V Line(34, 0, 2500)}),)),helpKey("Variability Chart"),),
+ListBox(vertical,near,),
+AxisBox(side(T),size(700,158),locked(false),scales(1,3,1,0),Vertical Alignment("Top"),),
+ListBox(vertical,near,Vertical Alignment("Top"),sub(
+MouseBox(DefaultCursor("Arrow"),Margin({Left(5), Top(0), Right(0), Bottom(0)}),sub(
+TextBox("Street Type",minSize(67,-1),maxSize(67,35),BaseSize(0,0),sizeID(0,3),compID(0,1),))),
+MouseBox(DefaultCursor("Arrow"),Margin({Left(5), Top(0), Right(0), Bottom(0)}),sub(
+TextBox("Renovated Ext",minSize(87,-1),maxSize(87,51),BaseSize(0,0),sizeID(0,3),compID(0,2),))),
+MouseBox(DefaultCursor("Arrow"),Margin({Left(5), Top(0), Right(0), Bottom(0)}),sub(
+TextBox("Town",minSize(32,-1),maxSize(32,53),BaseSize(0,0),sizeID(0,3),compID(0,3),))),
+MouseBox(DefaultCursor("Arrow"),Margin({Left(5), Top(0), Right(0), Bottom(0)}),sub(
+TextBox("Baths",minSize(35,-1),maxSize(35,19),BaseSize(0,0),sizeID(0,3),compID(0,4),))))))))))))))))))))),
+ListBox(horizontal,near,))))))))))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Variability Gauge"),rerun(Variability Chart(Y(:Price_Sold), X(:Town, :Baths, :Renovated Ext), Show Range Bars(0), Show Cell Means(0), Std Dev Chart(0))),Context({Table("Real Estate"), Y("Price_Sold")}),default font id(2),helpKey("Variability"),sub(
+OutlineBox(
+open(1),title("Variability Chart for Price_Sold"),default font id(2),helpKey("Variability"),sub(
+ScaleBox(id(3),charid("0"),length(123),baselength(123),comp(1),length(51),baselength(51),comp(2),length(19),baselength(19),comp(3),length(53),baselength(53),sub(
+ScaleBox(id(4),charid("0"),length(38),baselength(38),comp(1),length(33),baselength(33),sub(
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+PictureBox(sub(
+BorderBox(top(12),left(5),bottom(12),right(14),sides(16384),options(0),xmin(0),ymin(0),color(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(0),scaleWidth(25),widthMajor(1),
+nbin(25),nminor(0),timeCode(0),ndec(0),FieldWidth(9),
+MinInitInt(0),MaxInitInt(25),LinearInit,MajorInit(1),MinorInit(0),NObsInit(0),
+options(prohibitLogScale,showMajorTicks,showLabels,noMinorTickLabelsOnLogAxis,labelsAutoOrientation,),scaleTypeOptions(),nLabelRows(3),labelRows(labelRowTickList(default font id(7),axisTick(type(1),style(2),label("Not_New"),value(0),width(1),),axisTick(type(1),style(2),label("Not_New"),value(1),width(1),),axisTick(type(1),style(2),label("Not_New"),value(2),width(1),),axisTick(type(1),style(2),label("Not_New"),value(3),width(1),),axisTick(type(1),style(2),label("Not_New"),value(4),width(1),),axisTick(type(1),style(2),label("Not_New"),value(5),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(6),width(1),),axisTick(type(1),style(2),label("Not_New"),value(7),width(1),),axisTick(type(1),style(2),label("Not_New"),value(8),width(1),),axisTick(type(1),style(2),label("Not_New"),value(9),width(1),),axisTick(type(1),style(2),label("Not_New"),value(10),width(1),),axisTick(type(1),style(2),label("Not_New"),value(11),width(1),),axisTick(type(1),style(2),label("Not_New"),value(12),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(13),width(1),),axisTick(type(1),style(2),label("Not_New"),value(14),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(15),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(16),width(1),),axisTick(type(1),style(2),label("Not_New"),value(17),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(18),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(19),width(1),),axisTick(type(1),style(2),label("Not_New"),value(20),width(1),),axisTick(type(1),style(2),label("Not_New"),value(21),width(1),),axisTick(type(1),style(2),label("Ext_Ren"),value(22),width(1),),axisTick(type(1),style(2),label("Not_New"),value(23),width(1),),axisTick(type(1),style(2),label("Not_New"),value(24),width(1),),),labelRowTickList(default font id(7),axisTick(type(1),style(2),label("3"),value(0),width(1),),axisTick(type(1),style(2),label("4"),value(1),width(1),),axisTick(type(1),style(2),label("2"),value(2),width(1),),axisTick(type(1),style(2),label("3"),value(3),width(1),),axisTick(type(1),style(2),label("4"),value(4),width(1),),axisTick(type(1),style(2),label("5"),value(5),width(1),),axisTick(type(1),style(2),label("6"),value(6),width(2),),axisTick(type(1),style(2),label("8"),value(8),width(1),),axisTick(type(1),style(2),label("1"),value(9),width(1),),axisTick(type(1),style(2),label("1.5"),value(10),width(1),),axisTick(type(1),style(2),label("2"),value(11),width(1),),axisTick(type(1),style(2),label("2.5"),value(12),width(1),),axisTick(type(1),style(2),label("3"),value(13),width(2),),axisTick(type(1),style(2),label("3.5"),value(15),width(1),),axisTick(type(1),style(2),label("4"),value(16),width(2),),axisTick(type(1),style(2),label("4.5"),value(18),width(1),),axisTick(type(1),style(2),label("5"),value(19),width(1),),axisTick(type(1),style(2),label("2"),value(20),width(1),),axisTick(type(1),style(2),label("3"),value(21),width(1),),axisTick(type(1),style(2),label("4"),value(22),width(2),),axisTick(type(1),style(2),label("5"),value(24),width(1),),),labelRowTickList(default font id(7),axisTick(type(1),style(2),label("Columbia"),value(0),width(2),),axisTick(type(1),style(2),label("IH"),value(2),width(7),),axisTick(type(1),style(2),label("Madeira"),value(9),width(11),),axisTick(type(1),style(2),label("Syc"),value(20),width(5),),),),labelRows12(LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(-1),Label Orientation("Automatic"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Lower Frame(1),Major Grid Line Color(-14145495),Minimum Depth(32),Minimum Font Size(7),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Tick Mark Style("Long Divider"),Truncate format to interval(1),Wrap Lines(0),default font id(7),axisTick(type(2),label("Not_New"),value(0),width(1),),axisTick(type(2),label("Not_New"),value(1),width(1),),axisTick(type(2),label("Not_New"),value(2),width(1),),axisTick(type(2),label("Not_New"),value(3),width(1),),axisTick(type(2),label("Not_New"),value(4),width(1),),axisTick(type(2),label("Not_New"),value(5),width(1),),axisTick(type(2),label("Ext_Ren"),value(6),width(1),),axisTick(type(2),label("Not_New"),value(7),width(1),),axisTick(type(2),label("Not_New"),value(8),width(1),),axisTick(type(2),label("Not_New"),value(9),width(1),),axisTick(type(2),label("Not_New"),value(10),width(1),),axisTick(type(2),label("Not_New"),value(11),width(1),),axisTick(type(2),label("Not_New"),value(12),width(1),),axisTick(type(2),label("Ext_Ren"),value(13),width(1),),axisTick(type(2),label("Not_New"),value(14),width(1),),axisTick(type(2),label("Ext_Ren"),value(15),width(1),),axisTick(type(2),label("Ext_Ren"),value(16),width(1),),axisTick(type(2),label("Not_New"),value(17),width(1),),axisTick(type(2),label("Ext_Ren"),value(18),width(1),),axisTick(type(2),label("Ext_Ren"),value(19),width(1),),axisTick(type(2),label("Not_New"),value(20),width(1),),axisTick(type(2),label("Not_New"),value(21),width(1),),axisTick(type(2),label("Ext_Ren"),value(22),width(1),),axisTick(type(2),label("Not_New"),value(23),width(1),),axisTick(type(2),label("Not_New"),value(24),width(1),),),LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color(2147483647),Line Width(1),Lower Frame(1),Major Grid Line Color(-14145495),Minimum Depth(32),Minimum Font Size(8),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Tick Mark Style("Long Divider"),Truncate format to interval(1),Wrap Lines(0),default font id(7),axisTick(type(2),label("3"),value(0),width(1),),axisTick(type(2),label("4"),value(1),width(1),),axisTick(type(2),label("2"),value(2),width(1),),axisTick(type(2),label("3"),value(3),width(1),),axisTick(type(2),label("4"),value(4),width(1),),axisTick(type(2),label("5"),value(5),width(1),),axisTick(type(2),label("6"),value(6),width(2),),axisTick(type(2),label("8"),value(8),width(1),),axisTick(type(2),label("1"),value(9),width(1),),axisTick(type(2),label("1.5"),value(10),width(1),),axisTick(type(2),label("2"),value(11),width(1),),axisTick(type(2),label("2.5"),value(12),width(1),),axisTick(type(2),label("3"),value(13),width(2),),axisTick(type(2),label("3.5"),value(15),width(1),),axisTick(type(2),label("4"),value(16),width(2),),axisTick(type(2),label("4.5"),value(18),width(1),),axisTick(type(2),label("5"),value(19),width(1),),axisTick(type(2),label("2"),value(20),width(1),),axisTick(type(2),label("3"),value(21),width(1),),axisTick(type(2),label("4"),value(22),width(2),),axisTick(type(2),label("5"),value(24),width(1),),),LabelRowCategorical(options(0),Automatic Font Size(1),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Automatic"),Lax Label Range(1),Line Color(2147483647),Line Width(1),Lower Frame(1),Major Grid Line Color(-14145495),Minimum Depth(32),Minimum Font Size(8),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Tick Mark Style("Long Divider"),Truncate format to interval(1),Wrap Lines(0),default font id(7),axisTick(type(2),label("Columbia"),value(0),width(2),),axisTick(type(2),label("IH"),value(2),width(7),),axisTick(type(2),label("Madeira"),value(9),width(11),),axisTick(type(2),label("Syc"),value(20),width(5),),),),),charid("0"),length(500),baselength(500),sub(
+ScaleBox(id(3),charid("0"),length(123),baselength(123),comp(1),length(51),baselength(51),comp(2),length(19),baselength(19),comp(3),length(53),baselength(53),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(2500),widthMajor(500),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(0),MaxInitInt(2500),LinearInit,MajorInit(500),MinorInit(1),NObsInit(72),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),ref lines(n(1),value(0),style(1),color(81),),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("0"),length(240),baselength(240),sub(
+ListBox(horizontal,near,sub(
+ListBox(horizontal,near,sub(
+CenterBox(vert,boxcentering(0,1),ystretch("Fill"),sub(
+TextEditBox("Price_Sold",default font id(9),justification(1),vjustification(1),left,minSize(14,0),maxSize(14,240),BaseSize(0,0),sizeID(0,2),))),
+AxisBox(side(R),size(38,240),locked(false),scales(4,2,0,2),))),
+LineUpBox(nCol(2),spacing(0),hspacing(0),vspacing(0),sub(
+FrameBox(size(500,240),border(12303),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),scales(1,2,1,2),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(n(72),nv(1),MarkerItem(
+x(9.55,11.55,10.55,12.55,12.55,11.55,12.55,12.55,12.55,14.55
+,12.55,15.55,15.55,13.55,18.55,18.55,8.55,6.55,24.55,4.55
+,7.55,7.55,3.55,4.55,4.55,4.55,3.55,3.55,5.55,5.55
+,19.55,4.55,4.55,19.55,16.55,22.55,4.55,14.55,22.55,14.55
+,23.55,3.55,17.55,3.55,2.55,13.55,17.55,14.55,11.55,14.55
+,11.55,11.55,0.55,0.55,14.55,14.55,11.55,20.55,0.55,14.55
+,11.55,1.55,14.55,20.55,9.55,11.55,9.55,9.55,21.55,9.55
+,9.55,9.55),
+y(160,267,299.5,325,330,355,360,372,379.9,440
+,516,620,687,728,803,899.9,2400,1999,1750,1490
+,1482,1430,1230,1200,1200,1199,1135,1125.8,1080,935
+,899.9,885,850,803.3,783.5,772.5,769.2,745,682.5,595
+,565,560,528.6,525,525,495,477.5,469,459,420
+,410,397,375,365,360,360,355,347.5,340,330
+,302,290,288,285,280,261,258.9,214,200,199
+,190,160),),states(rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-13400361),rs(0,Dot,-4042310)
+,rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4354269)
+,rs(0,Dot,-13400361),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13912408),rs(0,Dot,-13912408),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-13912408),rs(0,Dot,-4354269)
+,rs(0,Dot,-4354269),rs(0,Dot,-13912408),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-13400361),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269)),),CustomStreamSeg(description("Separators"),properties(line(color(1)),),settable(46),script({V Line(2, 0, 2500), V Line(9, 0, 2500), V Line(20, 0, 2500), V Line(1, 0, 2500), V Line(2, 0, 2500), V Line(3, 0, 2500), V Line(4, 0, 2500), V Line(5, 0, 2500), V Line(6, 0, 2500), V Line(8, 0, 2500), V Line(9, 0, 2500), V Line(10, 0, 2500), V Line(11, 0, 2500), V Line(12, 0, 2500), V Line(13, 0, 2500), V Line(15, 0, 2500), V Line(16, 0, 2500), V Line(18, 0, 2500), V Line(19, 0, 2500), V Line(20, 0, 2500), V Line(21, 0, 2500), V Line(22, 0, 2500), V Line(24, 0, 2500)}),)),helpKey("Variability Chart"),),
+ListBox(vertical,near,),
+AxisBox(side(T),size(500,123),locked(false),scales(1,3,1,0),Vertical Alignment("Top"),),
+ListBox(vertical,near,Vertical Alignment("Top"),sub(
+MouseBox(DefaultCursor("Arrow"),Margin({Left(5), Top(0), Right(0), Bottom(0)}),sub(
+TextBox("Renovated Ext",minSize(87,-1),maxSize(87,51),BaseSize(0,0),sizeID(0,3),compID(0,1),))),
+MouseBox(DefaultCursor("Arrow"),Margin({Left(5), Top(0), Right(0), Bottom(0)}),sub(
+TextBox("Baths",minSize(35,-1),maxSize(35,19),BaseSize(0,0),sizeID(0,3),compID(0,2),))),
+MouseBox(DefaultCursor("Arrow"),Margin({Left(5), Top(0), Right(0), Bottom(0)}),sub(
+TextBox("Town",minSize(32,-1),maxSize(32,53),BaseSize(0,0),sizeID(0,3),compID(0,3),))))))))))))))))))))),
+ListBox(horizontal,near,))))))))))))),
+ListBox(vertical,near,sub(
+OwnerBox())),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Bivariate Fit of Price_Sold By Baths"),rerun(Bivariate(Y(:Price_Sold), X(:Baths), Fit Where(:Town == "IH", Fit Line({Line Color({61, 174, 70})})), Fit Where(:Town == "Madeira", Fit Line({Line Color({66, 112, 221})})), SendToReport(Dispatch({}, "Bivar Plot", FrameBox, {Frame Size(503, 395)})))),Context({Table("Real Estate"), Y("Price_Sold"), X("Baths")}),default font id(2),helpKey("Bivariate Report"),sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(8),left(5),bottom(8),right(14),sides(16384),options(0),xmin(0),ymin(0),color(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(0),scaleWidth(9),widthMajor(2),
+nbin(9),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(0),MaxInitInt(9),LinearInit,MajorInit(2),MinorInit(1),NObsInit(72),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("Baths"),length(503),baselength(503),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(2500),widthMajor(500),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(0),MaxInitInt(2500),LinearInit,MajorInit(500),MinorInit(1),NObsInit(72),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),charid("Price_Sold"),length(395),baselength(395),sub(
+ListBox(horizontal,near,sub(
+AxisBox(side(R),size(54,395),locked(false),scales(0,2,0,2),sub(
+MouseBox(DefaultCursor("Arrow"),sub(
+TextEditBox("Price_Sold",default font id(9),wrapWidth(395),justification(1),vjustification(1),left,minSize(14,54),maxSize(14,54),BaseSize(0,0),sizeID(0,-1),))))),
+ListBox(vertical,near,sub(
+FrameBox(size(503,395),border(12303),flags(0),markerSize(-1),scales(1,2,1,2),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),MarkerSeg(n(72),nv(1),MarkerItem(
+x(1,2,1.5,2.5,2.5,2,2.5,2.5,2.5,3
+,2.5,3.5,3.5,3,4.5,4.5,8,6,5,4
+,6,6,3,4,4,4,3,3,5,5
+,5,4,4,5,4,4,4,3,4,3
+,4,3,4,3,2,3,4,3,2,3
+,2,2,3,3,3,3,2,2,3,3
+,2,4,3,2,1,2,1,1,3,1
+,1,1),
+y(160,267,299.5,325,330,355,360,372,379.9,440
+,516,620,687,728,803,899.9,2400,1999,1750,1490
+,1482,1430,1230,1200,1200,1199,1135,1125.8,1080,935
+,899.9,885,850,803.3,783.5,772.5,769.2,745,682.5,595
+,565,560,528.6,525,525,495,477.5,469,459,420
+,410,397,375,365,360,360,355,347.5,340,330
+,302,290,288,285,280,261,258.9,214,200,199
+,190,160),),states(rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(6,Dot,-13400361),rs(0,Dot,-4042310)
+,rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(6,Dot,-13400361),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(6,Dot,-13400361),rs(0,Dot,-4354269)
+,rs(6,Dot,-13400361),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4042310),rs(0,Dot,-4042310),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(6,Dot,-13912408),rs(6,Dot,-13912408),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(6,Dot,-13400361),rs(6,Dot,-13912408),rs(0,Dot,-4354269)
+,rs(0,Dot,-4354269),rs(6,Dot,-13912408),rs(0,Dot,-4354269),rs(6,Dot,-13400361),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(6,Dot,-13400361),rs(0,Dot,-4354269),rs(0,Dot,-4354269),rs(0,Dot,-4354269)),),LineSeg(properties(color(-4042310), width(2)),n(2),x(0,9),y(25.7999999999973,2418),log curve(true),selectable(false),selectionMode(0),domainDim(0),),LineSeg(properties(color(-4354269), width(2)),n(2),x(0,9),y(24.8340630577031,1453.42885187389),log curve(true),selectable(false),selectionMode(0),domainDim(0),)),helpKey("Bivar Plot"),),
+AxisBox(side(T),size(503,36),locked(false),scales(1,0,1,0),sub(
+MouseBox(DefaultCursor("Arrow"),sub(
+TextEditBox("Baths",default font id(9),wrapWidth(503),justification(1),vjustification(1),minSize(30,14),maxSize(30,14),BaseSize(0,0),sizeID(-1,0),))))))))))))))))),
+PictureBox(sub(
+BorderBox(top(4),left(8),bottom(2),right(5),sides(143),options(0),xmin(0),ymin(0),color(0),sub(
+ListBox(vertical,near,sub(
+ListBox(horizontal,near,sub(
+CustomBox(size(24,16),script({Pen Color(-4042310), Line Style(0), Pen Size(2), H Line(0, 0.9, 0.5), Pen Size(1), Pen Color(0), Line Style(0)})),
+TextEditBox("Linear Fit Town==IH",minSize(118,16),maxSize(118,16),BaseSize(0,0),))),
+ListBox(horizontal,near,sub(
+CustomBox(size(24,16),script({Pen Color(-4354269), Line Style(0), Pen Size(2), H Line(0, 0.9, 0.5), Pen Size(1), Pen Color(0), Line Style(0)})),
+TextEditBox("Linear Fit Town==Madeira",minSize(152,16),maxSize(152,16),BaseSize(0,0),))))))))))),
+OutlineBox(
+open(1),title("Linear Fit Town==IH"),Context({Town("IH")}),default font id(2),helpKey("Bivar Poly"),sub(
+ListBox(vertical,near,sub(
+TextEditBox("Price_Sold = 25.8 + 265.8*Baths",minSize(190,16),maxSize(190,16),BaseSize(0,0),),
+OutlineBox(
+open(1),title("Summary of Fit"),horizontal,default font id(2),helpKey("Bivar Summary"),sub(
+TableBox(sub(
+StringColBox(n(5),flags(48),
+ strings("RSquare","RSquare Adj","Root Mean Square Error","Mean of Response","Observations (or Sum Wgts)"),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(5),width(8),decimal(99),newdecimal(-1),numbers(0.651533201779975,0.631035154825856,289.416077442758,1158.94736842105,19),User Resizable({0, 0}),))))),
+OutlineBox(
+open(0),title("Lack Of Fit"),default font id(2),helpKey("Bivar LackOfFit"),sub(
+TableBox(sub(
+StringColBox(n(3),title("Source"),flags(48),
+ strings("Lack Of Fit","Pure Error","Total Error"),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(3),title("DF"),width(6),decimal(99),newdecimal(-1),numbers(4,13,17),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(3),title("Sum of Squares"),width(10),decimal(1),newdecimal(1),numbers(346906.130857133,1077042.18914286,1423948.31999999),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(2),title("Mean Square"),width(8),decimal(1),newdecimal(1),numbers(86726.5327142832,82849.3991648352),User Resizable({0, 0}),),
+ColStackBox(vertical,near,sub(
+NumberColBox(titleWrap(true),n(1),title("F Ratio"),width(8),decimal(4),newdecimal(4),numbers(1.04679736471877),User Resizable({0, 0}),),
+NumberColBox(condFormat("PValue"),titleWrap(true),n(1),title("Prob > F"),width(8),decimal(97),newdecimal(-1),numbers(0.420742737422362),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(1),title("Max RSq"),width(6),decimal(4),newdecimal(4),numbers(0.73642762316086),User Resizable({0, 0}),))))))),
+OutlineBox(
+open(1),title("Analysis of Variance"),default font id(2),helpKey("Bivar Anova"),sub(
+TableBox(sub(
+StringColBox(n(3),title("Source"),flags(48),
+ strings("Model","Error","C. Total"),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(3),title("DF"),width(6),decimal(99),newdecimal(-1),numbers(1,17,18),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(3),title("Sum of Squares"),width(10),decimal(1),newdecimal(1),numbers(2662375.90736843,1423948.31999999,4086324.22736842),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(2),title("Mean Square"),width(8),decimal(0),newdecimal(0),numbers(2662375.90736843,83761.6658823524),User Resizable({0, 0}),),
+ColStackBox(vertical,near,sub(
+NumberColBox(titleWrap(true),n(1),title("F Ratio"),width(8),decimal(4),newdecimal(4),numbers(31.7851355906397),User Resizable({0, 0}),),
+NumberColBox(condFormat("PValue"),titleWrap(true),n(1),title("Prob > F"),width(8),decimal(97),newdecimal(-1),numbers(0.0000295255821225097),User Resizable({0, 0}),))))))),
+OutlineBox(
+open(1),title("Parameter Estimates"),default font id(2),helpKey("Bivar Estimates"),sub(
+TableBox(sub(
+StringColBox(n(2),title("Term"),flags(48),
+ strings("Intercept","Baths"),titleWrap(true),User Resizable({1, 0}),),
+StringColBox(n(2),title("~Bias"),flags(16),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(2),title("Estimate"),width(9),decimal(99),newdecimal(-1),numbers(25.7999999999973,265.800000000001),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(2),title("Std Error"),width(8),decimal(99),newdecimal(-1),numbers(211.673031142482,47.14579271389),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(2),title("t Ratio"),width(6),decimal(2),newdecimal(2),numbers(0.121886098860798,5.63783075221665),User Resizable({0, 0}),),
+NumberColBox(condFormat("PValue"),titleWrap(true),n(2),title("Prob>|t|"),width(6),decimal(97),newdecimal(-1),numbers(0.904418436539621,0.0000295255821225092),User Resizable({0, 0}),))))))))),
+OutlineBox(
+open(1),title("Linear Fit Town==Madeira"),Context({Town("Madeira")}),default font id(2),helpKey("Bivar Poly"),sub(
+ListBox(vertical,near,sub(
+TextEditBox("Price_Sold = 24.834063 + 158.73275*Baths",minSize(255,16),maxSize(255,16),BaseSize(0,0),),
+OutlineBox(
+open(1),title("Summary of Fit"),horizontal,default font id(2),helpKey("Bivar Summary"),sub(
+TableBox(sub(
+StringColBox(n(5),flags(48),
+ strings("RSquare","RSquare Adj","Root Mean Square Error","Mean of Response","Observations (or Sum Wgts)"),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(5),width(8),decimal(99),newdecimal(-1),numbers(0.737016994073003,0.730442418924828,106.041500911605,442.452380952381,42),User Resizable({0, 0}),))))),
+OutlineBox(
+open(0),title("Lack Of Fit"),default font id(2),helpKey("Bivar LackOfFit"),sub(
+TableBox(sub(
+StringColBox(n(3),title("Source"),flags(48),
+ strings("Lack Of Fit","Pure Error","Total Error"),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(3),title("DF"),width(6),decimal(99),newdecimal(-1),numbers(7,33,40),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(3),title("Sum of Squares"),width(10),decimal(2),newdecimal(2),numbers(73857.8322078523,375934.164415584,449791.996623437),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(2),title("Mean Square"),width(8),decimal(1),newdecimal(1),numbers(10551.118886836,11391.9443762298),User Resizable({0, 0}),),
+ColStackBox(vertical,near,sub(
+NumberColBox(titleWrap(true),n(1),title("F Ratio"),width(8),decimal(4),newdecimal(4),numbers(0.926191222356367),User Resizable({0, 0}),),
+NumberColBox(condFormat("PValue"),titleWrap(true),n(1),title("Prob > F"),width(8),decimal(97),newdecimal(-1),numbers(0.499358452254806),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(1),title("Max RSq"),width(6),decimal(4),newdecimal(4),numbers(0.780199965026428),User Resizable({0, 0}),))))))),
+OutlineBox(
+open(1),title("Analysis of Variance"),default font id(2),helpKey("Bivar Anova"),sub(
+TableBox(sub(
+StringColBox(n(3),title("Source"),flags(48),
+ strings("Model","Error","C. Total"),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(3),title("DF"),width(6),decimal(99),newdecimal(-1),numbers(1,40,41),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(3),title("Sum of Squares"),width(10),decimal(1),newdecimal(1),numbers(1260554.24813847,449791.996623437,1710346.2447619),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(2),title("Mean Square"),width(8),decimal(0),newdecimal(0),numbers(1260554.24813847,11244.7999155859),User Resizable({0, 0}),),
+ColStackBox(vertical,near,sub(
+NumberColBox(titleWrap(true),n(1),title("F Ratio"),width(8),decimal(4),newdecimal(4),numbers(112.101082954021),User Resizable({0, 0}),),
+NumberColBox(condFormat("PValue"),titleWrap(true),n(1),title("Prob > F"),width(8),decimal(97),newdecimal(-1),numbers(3.62570722022589e-13),User Resizable({0, 0}),))))))),
+OutlineBox(
+open(1),title("Parameter Estimates"),default font id(2),helpKey("Bivar Estimates"),sub(
+TableBox(sub(
+StringColBox(n(2),title("Term"),flags(48),
+ strings("Intercept","Baths"),titleWrap(true),User Resizable({1, 0}),),
+StringColBox(n(2),title("~Bias"),flags(16),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(2),title("Estimate"),width(9),decimal(99),newdecimal(-1),numbers(24.8340630577031,158.732754312909),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(2),title("Std Error"),width(8),decimal(99),newdecimal(-1),numbers(42.702660643679,14.992071614063),User Resizable({0, 0}),),
+NumberColBox(titleWrap(true),n(2),title("t Ratio"),width(6),decimal(2),newdecimal(2),numbers(0.581557745661901,10.5877798878717),User Resizable({0, 0}),),
+NumberColBox(condFormat("PValue"),titleWrap(true),n(2),title("Prob>|t|"),width(6),decimal(97),newdecimal(-1),numbers(0.564127808351704,3.62570722022575e-13),User Resizable({0, 0}),))))))))))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Distributions"),rerun(Distribution(Continuous Distribution(Column(:Price_Sold)), Continuous Distribution(Column(:Name("log(Price_Sold)"))), SendToReport(Dispatch({"Price_Sold"}, "Quantiles", OutlineBox, {Close(1)}), Dispatch({"log(Price_Sold)"}, "Quantiles", OutlineBox, {Close(1)})))),Context({Table("Real Estate")}),default font id(2),helpKey("Distrib"),sub(
+WrapListBox(sub(
+SpacerBox(size(5,90),minSize(5,90),maxSize(5,90),BaseSize(5,90),fillColor(2147483647),xstretch("Off"),ystretch("Off"),),
+OutlineBox(
+open(1),title("Price_Sold"),rerun(Distribution(Continuous Distribution(Column(:Price_Sold)), Continuous Distribution(Column(:Name("log(Price_Sold)"))), SendToReport(Dispatch({"Price_Sold"}, "Quantiles", OutlineBox, {Close(1)}), Dispatch({"log(Price_Sold)"}, "Quantiles", OutlineBox, {Close(1)})))),Context({Y("Price_Sold")}),default font id(2),helpKey("DistribC"),sub(
+ListBox(vertical,near,sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(2),left(2),bottom(5),right(2),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(-45.1263537906137),scaleWidth(2590.25270758123),widthMajor(500),
+nbin(10),nminor(1),timeCode(0),ndec(0),ndecSpec(99),FieldWidth(9),
+MinInitInt(-45.1263537906137),MaxInitInt(2545.12635379061),LinearInit,MajorInit(500),MinorInit(1),NObsInit(74),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(277),baselength(277),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(34.1),widthMajor(10),
+nbin(6),nminor(1),timeCode(0),ndec(1),ndecimals(0),FieldWidth(12),
+MinInitInt(0),MaxInitInt(34.1),LinearInit,MajorInit(10),MinorInit(1),NObsInit(10),
+options(fixMinimum,fixMaximum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(110),baselength(110),sub(
+ScaleBox(id(3),axis(scaleType(0),scaleOrig(0),scaleWidth(0.460810810810811),widthMajor(0.1),
+nbin(9),nminor(1),timeCode(0),ndec(3),ndecimals(2),FieldWidth(12),
+MinInitInt(0),MaxInitInt(0.460810810810811),LinearInit,MajorInit(0.1),MinorInit(1),NObsInit(20),
+options(fixMinimum,fixMaximum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(110),baselength(110),sub(
+ScaleBox(id(4),axis(scaleType(0),scaleOrig(0),scaleWidth(0.00184324324324324),widthMajor(0.0005),
+nbin(7),nminor(1),timeCode(0),ndec(3),ndecimals(2),FieldWidth(12),
+MinInitInt(0),MaxInitInt(0.00184324324324324),LinearInit,MajorInit(0.0005),MinorInit(1),NObsInit(20),
+options(fixMinimum,fixMaximum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(110),baselength(110),sub(
+BorderBox(top(5),left(15),bottom(5),right(15),sides(16384),options(0),xmin(0),ymin(0),sub(
+ListBox(horizontal,near,sub(
+BorderBox(left(5),sides(0),options(0),xmin(0),ymin(0),sub(
+AxisBox(side(R),size(38,277),locked(false),scales(0,1,0,1),))),
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(right(4),sides(12335),options(0),xmin(0),ymin(0),sub(
+FrameBox(size(110,277),border(0),flags(0),markerSize(-1),ndisallow(5),disallow("Background Map","Marker Size","Marker Drawing Mode","Marker Selection Mode","Marker Label Color Style"),scales(4,1,4,1),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),HistSeg(
+HistState(num microbins(120),num bars(10),bar microbins(12),first microbins diff(0),
+
+counts(0,0,0,0,0,0,0,2,0,3,
+1,0,3,4,2,3,2,7,2,2,
+1,1,3,1,1,3,1,1,1,1,
+0,0,2,0,1,1,1,2,2,0,
+2,0,1,3,1,0,0,0,0,0,
+0,1,0,0,2,0,0,3,0,1,
+0,0,0,0,0,0,0,0,1,0,
+0,2,0,0,0,0,0,0,0,0,
+0,0,0,0,1,0,0,0,0,0,
+0,0,0,0,0,1,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,1,0,0,0,0),
+
+hilites(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0),max bin count(7),max bar count(31),total bin count(74),
+bar color(-12241594),bar hilite color(-6125917),
+np density values(0.0000032829288939213,0.0000060757787378623,0.0000127651322370146,0.0000258904105666434,0.0000490668140461832,0.0000865678366570148,0.000142464269010623,0.000219513828442892,0.000318274627105462,0.000436976281478237,
+0.000572345954428337,0.000720955665233127,0.000880150589898352,0.00104769637577738,0.00122004156441512,0.00139009854754326,0.00154603190899701,0.00167228499737621,0.00175306595763872,0.00177724138360377,
+0.00174265493608087,0.00165780154422408,0.00153974669669801,0.0014088710852758,0.00128260234359102,0.00117083010991932,0.00107482060109311,0.000989673489345508,0.000908744934685387,0.000827836470627781,
+0.000747461397178015,0.000672654560882698,0.000610894331033433,0.000569284544555556,0.000552114292088859,0.000559492368065465,0.000587254013582682,0.000627973533413987,0.000672714323560717,0.000713015029381565,
+0.000742504675813885,0.000757577655744714,0.000756910295797612,0.000740222920118245,0.0007072105722572,0.000657517834809353,0.000591914179098152,0.000513892999719651,0.0004304725288854,0.000351383490481833,
+0.000286800171001326,0.000244619726915473,0.000228481987777021,0.000237225069856963,0.000265698992163338,0.000306295517666832,0.000350459557855265,0.000389778350738366,0.00041672274644461,0.000425395341164421,
+0.000412513703440275,0.000378418922854463,0.000327524582188154,0.000267678108656482,0.000208421570300187,0.000158740359923302,0.000125124363111559,0.000110501051251562,0.000114100630185585,0.000131972322059487,
+0.000157861639550203,0.000184340270361301,0.000204183560219899,0.000211874232582092,0.000204872631078105,0.000184175319613349,0.000153862308706015,0.000119758082138892,0.0000877405793739874,0.0000623474490884294,
+0.000046080792130659,0.0000393959182405128,0.0000410732986612893,0.0000486756877478547,0.000058998916243295,0.0000686044547363943,0.0000745050299324726,0.0000748898969733307,0.0000696113284395427,0.0000601810149843253,
+0.0000492466979192463,0.0000397688609333959,0.0000342131710818061,0.0000339794493962554,0.0000391245352021325,0.0000483519700072905,0.0000592648638841998,0.0000689072505213935,0.0000745441820999434,0.0000744668146240019,
+0.0000684985644017524,0.0000579580633522477,0.0000450916685916965,0.0000322559302193469,0.0000212267173427095,0.0000128892986441649,0.0000073328137286347,0.0000041923785736192,0.0000030353845822706,0.0000036465449262159,
+0.0000061470544530512,0.0000109318125988725,0.0000184310115203027,0.0000287402844617151,0.0000412392163475549,0.0000543939404127546,0.0000659327973878886,0.0000734380563094509,0.0000751588731078829,0.0000706727232026589,
+0.0000610533784028953,0.0000484540636070134,0.0000353267400206434,0.0000236646348247873,0.0000145831658559458,0.0000083285664809756,0.0000045950795112999,0.0000029576897277918),
+np grid values(-53.1003644707744,-32.2706712759186,-11.4409780810627,9.38871511379313,30.218408308649,51.0481015035048,71.8777946983607,92.7074878932165,113.537181088072,134.366874282928,
+155.196567477784,176.02626067264,196.855953867496,217.685647062352,238.515340257207,259.345033452063,280.174726646919,301.004419841775,321.834113036631,342.663806231487,
+363.493499426343,384.323192621198,405.152885816054,425.98257901091,446.812272205766,467.641965400622,488.471658595478,509.301351790334,530.131044985189,550.960738180045,
+571.790431374901,592.620124569757,613.449817764613,634.279510959469,655.109204154324,675.93889734918,696.768590544036,717.598283738892,738.427976933748,759.257670128604,
+780.08736332346,800.917056518315,821.746749713171,842.576442908027,863.406136102883,884.235829297739,905.065522492595,925.895215687451,946.724908882306,967.554602077162,
+988.384295272018,1009.21398846687,1030.04368166173,1050.87337485659,1071.70306805144,1092.5327612463,1113.36245444115,1134.19214763601,1155.02184083086,1175.85153402572,
+1196.68122722058,1217.51092041543,1238.34061361029,1259.17030680514,1280,1300.82969319485,1321.65938638971,1342.48907958457,1363.31877277942,1384.14846597428,
+1404.97815916913,1425.80785236399,1446.63754555884,1467.4672387537,1488.29693194856,1509.12662514341,1529.95631833827,1550.78601153312,1571.61570472798,1592.44539792283,
+1613.27509111769,1634.10478431255,1654.9344775074,1675.76417070226,1696.59386389711,1717.42355709197,1738.25325028682,1759.08294348168,1779.91263667654,1800.74232987139,
+1821.57202306625,1842.4017162611,1863.23140945596,1884.06110265082,1904.89079584567,1925.72048904053,1946.55018223538,1967.37987543024,1988.20956862509,2009.03926181995,
+2029.86895501481,2050.69864820966,2071.52834140452,2092.35803459937,2113.18772779423,2134.01742098908,2154.84711418394,2175.6768073788,2196.50650057365,2217.33619376851,
+2238.16588696336,2258.99558015822,2279.82527335307,2300.65496654793,2321.48465974279,2342.31435293764,2363.1440461325,2383.97373932735,2404.80343252221,2425.63312571706,
+2446.46281891192,2467.29251210678,2488.12220530163,2508.95189849649,2529.78159169134,2550.6112848862,2571.44097808105,2592.27067127591),np density max(0.00177724138360377),primary axis scale(2),
+density axis(scaleType(0),scaleOrig(0),scaleWidth(0.00184324324324324),widthMajor(0.0005),
+nbin(7),nminor(1),timeCode(0),ndec(3),ndecimals(2),FieldWidth(12),
+MinInitInt(0),MaxInitInt(0.00184324324324324),LinearInit,MajorInit(0.0005),MinorInit(1),NObsInit(20),
+options(fixMinimum,fixMaximum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),
+prob axis(scaleType(0),scaleOrig(0),scaleWidth(0.460810810810811),widthMajor(0.1),
+nbin(9),nminor(1),timeCode(0),ndec(3),ndecimals(2),FieldWidth(12),
+MinInitInt(0),MaxInitInt(0.460810810810811),LinearInit,MajorInit(0.1),MinorInit(1),NObsInit(20),
+options(fixMinimum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),
+count axis(scaleType(0),scaleOrig(0),scaleWidth(34.1),widthMajor(10),
+nbin(6),nminor(1),timeCode(0),ndec(1),ndecimals(0),FieldWidth(12),
+MinInitInt(0),MaxInitInt(34.1),LinearInit,MajorInit(10),MinorInit(1),NObsInit(10),
+options(fixMinimum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),z origin(-45.1263537906137),z width(2590.25270758123),stand alone bars(false),default bin span(12),bin width(20.8333333333333),bin origin(0),std dev(0),),
+vertical,,properties(color(-5331025)),
+fillPattern(),
+num rows(74),
+scores(7,12,14,15,15,17,17,17,18,21,24,29,32,34,38,43,115,95,84,71,71,68,59,57,57,57,54,54,51,44,43,42,40,38,37,37,36,35,32,28,27,26,25,25,25,23,22,22,22,20,19,19,18,17,17,17,17,16,16,15,14,13,13,13,13,12,12,10,9,9,9,7,40,43),
+hasDAxisBox,,nodaxis,,display bars,)),helpKey("Distrib Histogram"),))))))),
+PictureBox(sub(
+ScaleBox(id(6),axis(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(0.25),
+nbin(4),nminor(0),timeCode(0),ndec(3),ndecimals(2),FieldWidth(12),
+MinInitInt(0),MaxInitInt(1),LinearInit,MajorInit(0.25),MinorInit(0),NObsInit(0),
+options(fixMinimum,fixMaximum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(36),baselength(36),sub(
+FrameBox(size(46,277),border(12399),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),scales(6,1,6,1,1,1,10,0),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),BoxPlotSeg(schematic,vertical,
+quantiles(2400,2400,2049.125,1215,858.75,505.5,337.5,259.95,160,160,
+160),moments(653.233108108108,448.428090345325,52.1287066490441,757.125470636008,549.340745580208,74,74),adjacents(160,1490,258.9,565),position(0),width(0),widthProportion(0),ConfidenceDiamond(1),ShortestHalf(1),Notched(0),lineColor(0),lineStyle(0),lineWidth(1),transparency(1),),MarkerSeg(n(3),nv(1),MarkerItem(x(0.5,0.5,0.5),y(1750,1999,2400),),states(rs(0,Dot,-13400361),rs(0,Dot,-4042310),rs(0,Dot,-4042310)),)),helpKey("Distrib Outlier Box"),))))))))))))))))))))),
+ListBox(vertical,near,))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(0),title("Quantiles"),default font id(2),helpKey("Distrib Quantiles"),sub(
+TableBox(sub(
+StringColBox(n(11),flags(48),
+ strings("100.0%","99.5%","97.5%","90.0%","75.0%","50.0%","25.0%","10.0%","2.5%","0.5%","0.0%"),titleWrap(true),User Resizable({1, 0}),),
+StringColBox(n(11),right,flags(16),
+ strings("maximum","","","","quartile","median","quartile","","","","minimum"),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(11),width(9),decimal(99),newdecimal(-1),numbers(2400,2400,2049.125,1215,858.75,505.5,337.5,259.95,160,160,160),User Resizable({0, 0}),))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Summary Statistics"),default font id(2),helpKey("Distrib Moments"),sub(
+ListBox(vertical,near,sub(
+TableBox(sub(
+StringColBox(n(6),flags(48),
+ strings("Mean","Std Dev","Std Err Mean","Upper 95% Mean","Lower 95% Mean","N"),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(6),width(9),decimal(99),newdecimal(-1),numbers(653.233108108108,448.428090345325,52.1287066490441,757.125470636008,549.340745580208,74),User Resizable({0, 0}),))))))))))))))),
+SpacerBox(size(5,90),minSize(5,90),maxSize(5,90),BaseSize(5,90),fillColor(2147483647),xstretch("Off"),ystretch("Off"),),
+OutlineBox(
+open(1),title("log(Price_Sold)"),rerun(Distribution(Continuous Distribution(Column(:Price_Sold)), Continuous Distribution(Column(:Name("log(Price_Sold)"))), SendToReport(Dispatch({"Price_Sold"}, "Quantiles", OutlineBox, {Close(1)}), Dispatch({"log(Price_Sold)"}, "Quantiles", OutlineBox, {Close(1)})))),Context({Y("log(Price_Sold)")}),default font id(2),helpKey("DistribC"),sub(
+ListBox(vertical,near,sub(
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(top(2),left(2),bottom(5),right(2),sides(0),options(0),xmin(0),ymin(0),sub(
+ScaleBox(id(1),axis(scaleType(0),scaleOrig(4.94584837545126),scaleWidth(3.10830324909747),widthMajor(0.5),
+nbin(6),nminor(0),timeCode(0),ndec(2),ndecimals(1),FieldWidth(12),
+MinInitInt(4.94584837545126),MaxInitInt(8.05415162454874),LinearInit,MajorInit(0.5),MinorInit(0),NObsInit(74),
+options(showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(277),baselength(277),sub(
+ScaleBox(id(2),axis(scaleType(0),scaleOrig(0),scaleWidth(26.4),widthMajor(5),
+nbin(5),nminor(0),timeCode(0),ndec(1),ndecimals(0),FieldWidth(12),
+MinInitInt(0),MaxInitInt(26.4),LinearInit,MajorInit(5),MinorInit(0),NObsInit(10),
+options(fixMinimum,fixMaximum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(110),baselength(110),sub(
+ScaleBox(id(3),axis(scaleType(0),scaleOrig(0),scaleWidth(0.356756756756757),widthMajor(0.1),
+nbin(7),nminor(1),timeCode(0),ndec(3),ndecimals(2),FieldWidth(12),
+MinInitInt(0),MaxInitInt(0.356756756756757),LinearInit,MajorInit(0.1),MinorInit(1),NObsInit(20),
+options(fixMinimum,fixMaximum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(110),baselength(110),sub(
+ScaleBox(id(4),axis(scaleType(0),scaleOrig(0),scaleWidth(0.713513513513514),widthMajor(0.1),
+nbin(7),nminor(0),timeCode(0),ndec(3),ndecimals(2),FieldWidth(12),
+MinInitInt(0),MaxInitInt(0.713513513513514),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(fixMinimum,fixMaximum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(110),baselength(110),sub(
+BorderBox(top(5),left(15),bottom(5),right(15),sides(16384),options(0),xmin(0),ymin(0),sub(
+ListBox(horizontal,near,sub(
+BorderBox(left(5),sides(0),options(0),xmin(0),ymin(0),sub(
+AxisBox(side(R),size(29,277),locked(false),scales(0,1,0,1),))),
+ListBox(vertical,near,sub(
+PictureBox(sub(
+BorderBox(right(4),sides(12335),options(0),xmin(0),ymin(0),sub(
+FrameBox(size(110,277),border(0),flags(0),markerSize(-1),ndisallow(5),disallow("Background Map","Marker Size","Marker Drawing Mode","Marker Selection Mode","Marker Label Color Style"),scales(4,1,4,1),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),HistSeg(
+HistState(num microbins(72),num bars(6),bar microbins(12),first microbins diff(0),
+
+counts(0,2,0,0,0,1,0,2,1,0,
+0,0,0,2,1,3,2,1,1,3,
+3,4,3,1,2,0,1,2,2,1,
+3,1,1,1,1,0,2,0,2,3,
+2,2,1,3,1,0,0,1,2,0,
+4,0,0,0,1,2,0,0,0,1,
+0,0,1,0,0,0,1,0,0,0,
+0,0),
+
+hilites(0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0),max bin count(4),max bar count(24),total bin count(74),
+bar color(-12241594),bar hilite color(-6125917),
+np density values(0.00220672751098167,0.0036582721938821,0.00716862806963603,0.0136507731003065,0.0241332469688814,0.0392912030151449,0.0588682656810763,0.0812612888450047,0.103617974306277,0.122644560176427,
+0.135932925802196,0.143200165036888,0.146702955601345,0.150421408529135,0.158262213138055,0.17211394390036,0.190724810279818,0.209975853120731,0.224433396502262,0.229478635259786,
+0.223123411151175,0.206864394535437,0.185398926466417,0.165445411995489,0.154110855525933,0.157243538427942,0.178118945398282,0.216714132124911,0.269719247356092,0.331280941385441,
+0.394303344665419,0.452030252765607,0.499620509642745,0.535426034441222,0.561614429598854,0.583728524512544,0.608952919359095,0.643362155834432,0.689052370569974,0.742392692003193,
+0.794365152480757,0.833136724265996,0.848003859846591,0.833167542755144,0.789803413518078,0.725631420722027,0.652312281237154,0.581907359349619,0.523853552475794,0.483390670497387,
+0.461546118398317,0.456143625913425,0.46311548016059,0.477586714468505,0.494541223798411,0.509182130648377,0.517245020016225,0.515460648521925,0.502140957602498,0.477644060687238,
+0.444440632263698,0.406687467569554,0.369457981157206,0.33789176752184,0.316459230600949,0.308406779716182,0.315379502856007,0.337224736604465,0.371994331388227,0.416153230845374,
+0.464997165034373,0.513287086611014,0.556052654606256,0.589361187754923,0.610713638827451,0.618835771049755,0.613037101558236,0.5927336083659,0.557744982541968,0.509430128303708,
+0.451967203518268,0.392727152959914,0.341076223101996,0.305840167579664,0.292454944665489,0.301019528994654,0.32602695021577,0.357841047718835,0.385403826629118,0.399357237208568,
+0.394682842456183,0.372038674336651,0.337261911264395,0.299080435563292,0.265813905468045,0.242383942423735,0.228911074879724,0.221463907806697,0.214477965796658,0.203558813426113,
+0.187289105833837,0.167314023644448,0.146969239496247,0.129433738990451,0.116438408392434,0.108007934219634,0.103012637928239,0.0999415504436128,0.0974362201260433,0.0945095554511873,
+0.090635893888606,0.0858522415484096,0.0807915284906052,0.0764596850198623,0.0737139395738661,0.0726767749862552,0.0724652643352732,0.0714718269697036,0.0680872810689446,0.0614659280080192,
+0.0519081234480248,0.0406847548252013,0.0294602446163102,0.0196605564291495,0.0120874624914127,0.00688194529760705,0.00374818038398289,0.00227249480486677),
+np grid values(4.81754592020703,4.84272799826293,4.86791007631883,4.89309215437474,4.91827423243065,4.94345631048655,4.96863838854245,4.99382046659836,5.01900254465426,5.04418462271017,
+5.06936670076607,5.09454877882198,5.11973085687788,5.14491293493379,5.17009501298969,5.1952770910456,5.2204591691015,5.24564124715741,5.27082332521331,5.29600540326922,
+5.32118748132512,5.34636955938103,5.37155163743693,5.39673371549284,5.42191579354874,5.44709787160465,5.47227994966055,5.49746202771646,5.52264410577236,5.54782618382827,
+5.57300826188417,5.59819033994008,5.62337241799598,5.64855449605189,5.67373657410779,5.6989186521637,5.7241007302196,5.74928280827551,5.77446488633141,5.79964696438732,
+5.82482904244322,5.85001112049913,5.87519319855503,5.90037527661094,5.92555735466684,5.95073943272275,5.97592151077865,6.00110358883456,6.02628566689046,6.05146774494637,
+6.07664982300227,6.10183190105817,6.12701397911408,6.15219605716998,6.17737813522589,6.20256021328179,6.2277422913377,6.2529243693936,6.27810644744951,6.30328852550541,
+6.32847060356132,6.35365268161722,6.37883475967313,6.40401683772903,6.42919891578494,6.45438099384084,6.47956307189675,6.50474514995265,6.52992722800856,6.55510930606446,
+6.58029138412037,6.60547346217627,6.63065554023218,6.65583761828808,6.68101969634399,6.70620177439989,6.7313838524558,6.7565659305117,6.78174800856761,6.80693008662351,
+6.83211216467942,6.85729424273532,6.88247632079123,6.90765839884713,6.93284047690304,6.95802255495894,6.98320463301485,7.00838671107075,7.03356878912666,7.05875086718256,
+7.08393294523847,7.10911502329437,7.13429710135028,7.15947917940618,7.18466125746209,7.20984333551799,7.23502541357389,7.2602074916298,7.2853895696857,7.31057164774161,
+7.33575372579751,7.36093580385342,7.38611788190932,7.41129995996523,7.43648203802113,7.46166411607704,7.48684619413294,7.51202827218885,7.53721035024475,7.56239242830066,
+7.58757450635656,7.61275658441247,7.63793866246837,7.66312074052428,7.68830281858018,7.71348489663609,7.73866697469199,7.7638490527479,7.7890311308038,7.81421320885971,
+7.83939528691561,7.86457736497152,7.88975944302742,7.91494152108333,7.94012359913923,7.96530567719514,7.99048775525104,8.01566983330695),np density max(0.848003859846591),primary axis scale(2),
+density axis(scaleType(0),scaleOrig(0),scaleWidth(0.713513513513514),widthMajor(0.1),
+nbin(7),nminor(0),timeCode(0),ndec(3),ndecimals(2),FieldWidth(12),
+MinInitInt(0),MaxInitInt(0.713513513513514),LinearInit,MajorInit(0.1),MinorInit(0),NObsInit(20),
+options(fixMinimum,fixMaximum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),
+prob axis(scaleType(0),scaleOrig(0),scaleWidth(0.356756756756757),widthMajor(0.1),
+nbin(7),nminor(1),timeCode(0),ndec(3),ndecimals(2),FieldWidth(12),
+MinInitInt(0),MaxInitInt(0.356756756756757),LinearInit,MajorInit(0.1),MinorInit(1),NObsInit(20),
+options(fixMinimum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),
+count axis(scaleType(0),scaleOrig(0),scaleWidth(26.4),widthMajor(5),
+nbin(5),nminor(0),timeCode(0),ndec(1),ndecimals(0),FieldWidth(12),
+MinInitInt(0),MaxInitInt(26.4),LinearInit,MajorInit(5),MinorInit(0),NObsInit(10),
+options(fixMinimum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),z origin(4.94584837545126),z width(3.10830324909747),stand alone bars(false),default bin span(12),bin width(0.0416666666666667),bin origin(5),std dev(0),),
+vertical,,properties(color(-5331025)),
+fillPattern(),
+num rows(74),
+scores(1,14,16,18,19,20,21,22,22,26,29,34,36,38,40,43,66,62,59,55,55,54,50,50,50,50,48,48,47,44,43,42,41,40,39,39,39,38,36,33,32,31,30,30,30,28,28,27,27,24,24,23,22,21,21,21,20,20,19,19,17,16,15,15,15,13,13,8,7,7,5,1,41,43),
+hasDAxisBox,,nodaxis,,display bars,)),helpKey("Distrib Histogram"),))))))),
+PictureBox(sub(
+ScaleBox(id(6),axis(scaleType(0),scaleOrig(0),scaleWidth(1),widthMajor(0.25),
+nbin(4),nminor(0),timeCode(0),ndec(3),ndecimals(2),FieldWidth(12),
+MinInitInt(0),MaxInitInt(1),LinearInit,MajorInit(0.25),MinorInit(0),NObsInit(0),
+options(fixMinimum,fixMaximum,prohibitLogScale,showMajorTicks,showMinorTicks,showLabels,noMinorTickLabelsOnLogAxis,),scaleTypeOptions(),nLabelRows(1),labelRows(LabelRowNumeric(default font id(7),),),labelRows12(LabelRowContinuous(options(0),Automatic Font Size(0),Automatic Tick Marks(0),Inside Ticks(0),Label Alignment("Near"),Label Buffer Scale(1),Label Orientation("Horizontal"),Lax Label Range(0),Line Color(2147483647),Line Width(1),Major Grid Line Color(-14145495),Minimum Depth(0),Minimum Font Size(8),Minor Grid Line Color(-15790320),Show Major Grid(0),Show Major Labels(1),Show Major Ticks(1),Show Minor Grid(0),Show Minor Labels(0),Show Minor Ticks(1),Tick Offset(0),Truncate format to interval(1),Wrap Lines(0),default font id(7),),),),length(36),baselength(36),sub(
+FrameBox(size(46,277),border(12399),flags(0),markerSize(-1),ndisallow(1),disallow("Background Map"),scales(6,1,6,1,1,1,10,0),seg(
+,SegPlaceholder(description("Grid Lines"),),SegPlaceholder(description("Reference Lines"),),BoxPlotSeg(schematic,vertical,
+quantiles(7.78322401633604,7.78322401633604,7.62325504472985,7.10242314207128,6.75532417336526,6.22533226402513,5.82148237682279,5.56048114704009,5.07517381523383,5.07517381523383,
+5.07517381523383),moments(6.28164438413555,0.629503013561941,0.0731782389086941,6.42748840395826,6.13580036431284,74,74),adjacents(5.07517381523383,7.78322401633604,5.55644188675749,6.33682573114644),position(0),width(0),widthProportion(0),ConfidenceDiamond(1),ShortestHalf(1),Notched(0),lineColor(0),lineStyle(0),lineWidth(1),transparency(1),)),helpKey("Distrib Outlier Box"),))))))))))))))))))))),
+ListBox(vertical,near,))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(0),title("Quantiles"),default font id(2),helpKey("Distrib Quantiles"),sub(
+TableBox(sub(
+StringColBox(n(11),flags(48),
+ strings("100.0%","99.5%","97.5%","90.0%","75.0%","50.0%","25.0%","10.0%","2.5%","0.5%","0.0%"),titleWrap(true),User Resizable({1, 0}),),
+StringColBox(n(11),right,flags(16),
+ strings("maximum","","","","quartile","median","quartile","","","","minimum"),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(11),width(12),decimal(99),newdecimal(-1),numbers(7.78322401633604,7.78322401633604,7.62325504472985,7.10242314207128,6.75532417336526,6.22533226402513,5.82148237682279,5.56048114704009,5.07517381523383,5.07517381523383,5.07517381523383),User Resizable({0, 0}),))))),
+ListBox(vertical,near,sub(
+OutlineBox(
+open(1),title("Summary Statistics"),default font id(2),helpKey("Distrib Moments"),sub(
+ListBox(vertical,near,sub(
+TableBox(sub(
+StringColBox(n(6),flags(48),
+ strings("Mean","Std Dev","Std Err Mean","Upper 95% Mean","Lower 95% Mean","N"),titleWrap(true),User Resizable({1, 0}),),
+NumberColBox(titleWrap(true),n(6),width(9),decimal(99),newdecimal(-1),numbers(6.28164438413555,0.629503013561941,0.0731782389086941,6.42748840395826,6.13580036431284,74),User Resizable({0, 0}),))))))))))))))),
+SpacerBox(size(5,90),minSize(5,90),maxSize(5,90),BaseSize(5,90),fillColor(2147483647),xstretch("Off"),ystretch("Off"),)))))))))
